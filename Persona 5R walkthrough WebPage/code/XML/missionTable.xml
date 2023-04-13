@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mementosTable[
+<!ELEMENT mementosTable (mission+)>
+<!ELEMENT mission (name,rank,location,reward,availability, type)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT reward (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+]>
+<mementosTable>
+
+    <mission>        <!--Mission-->
+        <name>Beware the Clingy Ex-boyfriend!</name>
+        <rank>D</rank>
+        <location>Qimranut 1</location>
+        <reward>Adhered Pearl</reward>
+        <availability>5/7</availability>
+        <type>Regular requests</type>
+    </mission>
+
+    <mission>        <!--Mission-->
+        <name>The Bark and Bite of a Bully</name>
+        <rank>D</rank>
+        <location>Aiyatsubus 2</location>
+        <reward>Protein</reward>
+        <availability>5/9</availability>
+        <type>Regular requests</type>
+    </mission>
+
+    <mission>        <!--Mission-->
+        <name>An Elderly’s Meaning of Life★</name>
+        <rank>D</rank>
+        <location>Aiyatsubus 3</location>
+        <reward>Ambient Aid Ring</reward>
+        <availability>6/5 (Check SNS from Mishima)</availability>
+        <type>Regular requests</type>
+    </mission>
+
+    <mission>        <!--Mission-->
+        <name>Sadism Is Just a Sign of Love</name>
+        <rank>D</rank>
+        <location>Aiyatsubus 7</location>
+        <reward>Whip Sword</reward>
+        <availability>6/6</availability>
+        <type>Regular requests</type>
+    </mission>
+
+    <mission>
+        <name>Phantom Thieves VS Burglary Ring</name>        <!--Mission-->
+        <rank>D</rank>        <!--Rank-->
+        <location>Chemdah 4</location>        <!--Location-->
+        <reward>Old Keys</reward>        <!--Reward-->
+        <availability>6/18</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>If Cats Disappeared from the City★</name>        <!--Mission-->
+        <rank>D</rank>        <!--Rank-->
+        <location>Aiyatsubus 6</location>        <!--Location-->
+        <reward>Cat Brooch</reward>        <!--Reward-->
+        <availability>After completing Madarame Palace</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>The Lovesick Cyberstalking Girl</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Chemdah 8</location>        <!--Location-->
+        <reward>Sticky Hairball</reward>        <!--Reward-->
+        <availability>7/10</availability>        <!--Availability-->
+        <type>Regular Requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>We Aren’t Just Your Slaves</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 8</location>        <!--Location-->
+        <reward>Theme Park Escort (Book)</reward>        <!--Reward-->
+        <availability>8/2</availability>        <!--Availability-->
+        <type>Regular Requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>Who’s Been Assaulting People?</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 5</location>        <!--Location-->
+        <reward>Charge (Skill Card)</reward>        <!--Reward-->
+        <availability>8/5</availability>        <!--Availability-->
+        <type>Regular Requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Who’s Muscling in Yongen-Jaya</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 10</location>        <!--Location-->
+        <reward>Shitamachi Reborn (Book)</reward>        <!--Reward-->
+        <availability>8/30</availability>        <!--Availability-->
+        <type>Regular Requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>Winners Don’t Use Cheats</name>        <!--Mission-->
+        <rank>B</rank>        <!--Rank-->
+        <location>Akzeriyyuth 5</location>        <!--Location-->
+        <reward>Null Physical (Skill Card)</reward>        <!--Reward-->
+        <availability>9/4 (Unlock Tower Confidant to finish this mission)</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>The Killer Who Cleans Up Trash</name>        <!--Mission-->
+        <rank>B</rank>        <!--Rank-->
+        <location>Akzeriyyuth 12</location>        <!--Location-->
+        <reward>High Counter (Skill Card)</reward>        <!--Reward-->
+        <availability>10/14</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Swindling Old Folks is Pretty Low</name>        <!--Mission-->
+        <rank>A</rank>        <!--Rank-->
+        <location>Adyeshach 13</location>        <!--Location-->
+        <reward>Haten Robe</reward>        <!--Reward-->
+        <availability>11/25</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Lady Killer’s Ballad★</name>        <!--Mission-->
+        <rank>A</rank>        <!--Rank-->
+        <location>Sheriruth 8</location>        <!--Location-->
+        <reward>Agitation Crown</reward>        <!--Reward-->
+        <availability>12/10</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>The Head Honcho in Showbiz</name>        <!--Mission-->
+        <rank>S</rank>        <!--Rank-->
+        <location>Sheriruth 14</location>        <!--Location-->
+        <reward>Immortal Vest</reward>        <!--Reward-->
+        <availability>After completing Shido Palace</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>A Small Cry for Help★</name>        <!--Mission-->
+        <rank>S</rank>        <!--Rank-->
+        <location>Da'at 3</location>        <!--Location-->
+        <reward>Mamudoon Ring</reward>        <!--Reward-->
+        <availability>1/13 (Check SNS from Futaba)</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>O My Young Sister, I Cry For You★</name>        <!--Mission-->
+        <rank>S</rank>        <!--Rank-->
+        <location>Da'at 7</location>        <!--Location-->
+        <reward>Strength Incense x8</reward>        <!--Reward-->
+        <availability>1/14 (Check SNS from Mishima)</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>An Idol and a Unicorn★</name>        <!--Mission-->
+        <rank>S</rank>        <!--Rank-->
+        <location>Da'at 13</location>        <!--Location-->
+        <reward>One Shot Kill” Skill Card</reward>        <!--Reward-->
+        <availability>Check SNS from Ryuji</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Fake-Man Show★</name>        <!--Mission-->
+        <rank>S</rank>        <!--Rank-->
+        <location>Da’at 15</location>        <!--Location-->
+        <reward>Ailment Boost Ring</reward>        <!--Reward-->
+        <availability>Check SNS from Ryuji</availability>        <!--Availability-->
+        <type>Regular requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>One Who Bullies Bullies</name>        <!--Mission-->
+        <rank>D</rank>        <!--Rank-->
+        <location>Aiyatsubus 5</location>        <!--Location-->
+        <reward>Evil Snow Crystal</reward>        <!--Reward-->
+        <availability>After completing “The Bark and Bite of a Bully” and reaching Moon Rank 3</availability>        <!--Availability-->
+        <type>Mishima's requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>Part-time Job, Full-time Hell</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Chemdah 1</location>        <!--Location-->
+        <reward>Chinese Sweets (Book)</reward>        <!--Reward-->
+        <availability>After reaching rank 4 in Moon Confidant</availability>        <!--Availability-->
+        <type>Mishima's requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Calling for Justice for Cats</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 1</location>        <!--Location-->
+        <reward>Blood Scimitar</reward>        <!--Reward-->
+        <availability>After reaching rank 5 in Moon Confidant</availability>        <!--Availability-->
+        <type>Mishima's requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Man of Many Faces and Debts</name>        <!--Mission-->
+        <rank>B</rank>        <!--Rank-->
+        <location>Akzeriyyuth 3</location>        <!--Location-->
+        <reward>Thermopylae (Skill Card)</reward>        <!--Reward-->
+        <availability>After reaching rank 8 in Moon Confidant</availability>        <!--Availability-->
+        <type>Mishima's requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Bad Medicine</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Chemdah 2</location>        <!--Location-->
+        <reward>Mediarama (Skill Card)</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Death Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Ending the Boyfriend’s Abuse</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Chemdah 3</location>        <!--Location-->
+        <reward>Sleep Stick</reward>        <!--Reward-->
+        <availability>After paying 100,000 Yen to Fortune Condiant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>A Teacher Maid to Suffer</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Chemdah 7</location>        <!--Location-->
+        <reward>Envy Chain</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Temperance Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Debunking the Psychic!</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 3</location>        <!--Location-->
+        <reward>Prophet’s Hand</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Fortune Condiant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Shady Deal in the Shadows</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 4</location>        <!--Location-->
+        <reward>Weird Wrap (Armor)</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Hanged Man Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>Fighting for Truth in Journalism</name>        <!--Mission-->
+        <rank>C</rank>        <!--Rank-->
+        <location>Kaitul 9</location>        <!--Location-->
+        <reward>Invigorate 3 (Skill Card)</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Devil Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>Upstaging the Stage Mother</name>        <!--Mission-->
+        <rank>B</rank>        <!--Rank-->
+        <location>Akzeriyyuth 6</location>        <!--Location-->
+        <reward>Bead Chain</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Star Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+    <mission>
+        <name>The Money-grubbing Uncle</name>        <!--Mission-->
+        <rank>B</rank>        <!--Rank-->
+        <location>Auto (Speak to Futaba)</location>        <!--Location-->
+        <reward>Venture Saber</reward>        <!--Reward-->
+        <availability>After reaching rank 8.1 in Hierophant Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>Daughter’s Just a Meal Ticket</name>        <!--Mission-->
+        <rank>A</rank>        <!--Rank-->
+        <location>Adyeshach 3</location>        <!--Location-->
+        <reward>Growth 3 (Skill Card)</reward>        <!--Reward-->
+        <availability>After reaching rank 7.1 in Hermit Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+    <mission>
+        <name>A Mother’s Aggression</name>        <!--Mission-->
+        <rank>A</rank>        <!--Rank-->
+        <location>Adyeshach 11</location>        <!--Location-->
+        <reward>Soma</reward>        <!--Reward-->
+        <availability>After reaching rank 8.2 in Tower Confidant</availability>        <!--Availability-->
+        <type>Confidant requests</type>        <!--Type-->
+    </mission>
+
+</mementosTable>

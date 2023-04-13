@@ -1,0 +1,294 @@
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-image: url('../images/fondo1.jpg');
+    /* Opera 9.5 */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 3em;
+    /* Set same as footer's height */
+}
+
+/*headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*Menu style*/
+
+nav {
+    font-size: 18px;
+    width: 100%;
+    background: #0c0c0c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #262727, #0c0c0c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #262727, #0c0c0c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: rgb(241, 236, 236);
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav ul li {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+
+}
+
+nav ul li:hover {
+    background-color: rgb(204, 189, 50);
+}
+
+/*mobile menu*/
+nav>ul>li:first-child:hover,
+.size_icon:hover {
+    background: #0c0c0c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #262727, #0c0c0c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #262727, #0c0c0c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.size_icon {
+    font-size: 25px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*By default the nested list is hidden*/
+.menu-pc {
+    display: none;
+}
+
+/*Dropdown menu style*/
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(71, 66, 66);
+    z-index: 1;
+    text-align: center;
+}
+
+.drop-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.7rem;
+    text-align: center;
+
+}
+
+.Dropdown:hover .drop-content {
+    display: block;
+
+}
+
+.drop-content a:hover {
+    background-color: rgb(204, 189, 50);
+}
+
+/*footer*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    background: rgb(8, 8, 8)
+}
+
+
+/*images*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo img {
+    min-height: 20rem;
+    max-height: 45rem;
+
+}
+
+.book {
+    position: fixed;
+    bottom: 3rem;
+    right: 0;
+
+}
+
+.book img {
+    height: 30px;
+    width: 25px;
+    padding-bottom: 10px
+}
+
+/*index*/
+.index {
+    float: right;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border: 1px solid rgb(204, 189, 50);
+}
+
+.index a {
+    text-decoration: none;
+}
+
+.index a:visited {
+    color: rgb(226, 62, 62)
+}
+
+.index ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(6rem, 100%), 1fr));
+    grid-gap: 20px;
+    line-height: 1rem;
+    list-style-type: none;
+}
+
+/*content*/
+.content {
+    margin: 5% 5%;
+    border-radius: 2px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background: #0c0c0c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #262727, #0c0c0c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #262727, #0c0c0c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 90%;
+}
+
+/*answers*/
+#Crossword ul {
+    margin: 5px 15px;
+    list-style: decimal;
+}
+
+#Classroom ul {
+    list-style: none;
+    text-align: center;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    line-height: 1.5rem
+}
+
+/*media queries*/
+/*tablet*/
+@media (min-width:600px) {
+
+    nav>ul>li:first-child,
+    .size_icon {
+        display: none;
+        position: absolute;
+    }
+
+    .menu-pc {
+        display: block
+    }
+
+    nav {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 3.5rem;
+    }
+
+    .book img {
+        height: 35px;
+        width: 30px;
+    }
+
+    nav ul li {
+        padding: 1rem 0;
+        display: inline-block;
+        text-align: center
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center
+    }
+
+    .content {
+        width: 90%;
+        margin: 7% 5%;
+
+    }
+
+    .index {
+        width: 40%;
+        margin-left: 8px
+    }
+
+}
+
+@media (min-width:900px) {
+    .index {
+        margin: 1rem;
+        width: 30%;
+
+    }
+
+    .soon {
+        margin: 17%
+    }
+
+    nav {
+        font-size: 20px;
+    }
+
+    nav ul {
+        height: 4rem
+    }
+}
